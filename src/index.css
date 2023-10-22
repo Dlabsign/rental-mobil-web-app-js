@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: 'BasierCircle-Bold';
+  src: url(../public/Font/BasierCircle-Bold.ttf);
+}
+@font-face {
+  font-family: 'BasierCircle-Regular';
+  src: url(../public/Font/BasierCircle-Regular.ttf);
+}
+@font-face {
+  font-family: 'BasierCircle-Medium';
+  src: url(../public/Font/BasierCircle-Medium.ttf);
+}
+@font-face {
+  font-family: 'BasierCircle-SemiBold';
+  src: url(../public/Font/BasierCircle-SemiBold.ttf);
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+.myhomepage::-webkit-scrollbar {
+  overflow-y: hidden;
+}
+
+.card-banner::-webkit-scrollbar {
+  overflow-y: hidden;
+}
+
+.card-banner:active {
+  cursor: grabbing;
+}
+
+.why-trac img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center bottom;
+}
+
+.information-icon {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.img-banner {
+  height: 100%;
+  object-fit: cover;
+  border: 1px solid white;
+}
+
+
+p{
+  font-family: 'BasierCircle-Regular';
+  font-size: 1rem;
+}
+
+.banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.OrderBanner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.modal-content  img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
